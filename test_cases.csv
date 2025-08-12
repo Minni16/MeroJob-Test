@@ -1,0 +1,17 @@
+Test Case,Test Title,Test Description,Precondition,Test Steps,Test Data,Expected Outcome,Actual Outcome,Status,Postcondition,Attachment,Remarks
+
+B_01,Search Blog,Verify blog search functionality,"1. User must be logged in
+2. User must be on blog page","1. Navigate to blog page
+2. Enter ""Manager"" in search field
+3. Press Enter",searchTerm: ""Manager"","1. URL should be ""https://merojob.com/blog/search/?q=Manager""
+2. Search Results text should be visible
+3. Article ""Things Hiring Managers Expect During a Job Interview"" should be visible",Search results displayed as expected,Pass,"1. Search results are maintained until new search
+2. Search term is preserved in URL
+3. User can perform new search or navigate back",search-results.png,N/A
+LO_01,Logout,Verify logout functionality,User must be logged in,"1. Click on user profile icon
+2. Wait for dropdown menu
+3. Click logout button",N/A,"1. User should be redirected to homepage (https://merojob.com/)
+2. ""Employer Zone"" button should be visible",User successfully logged out,Pass,"1. User session is terminated
+2. All authenticated features are inaccessible
+3. Browser cache and cookies for the session are cleared
+4. System is ready for new login",logout-error.png,N/A 
