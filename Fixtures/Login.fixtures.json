@@ -1,7 +1,7 @@
 {
   "validUser": {
     "email": "sichu1416@gmail.com",
-    "password": "MeroJob@2025"
+    "password": "password"
   },
 
   "invalidUser": {
@@ -15,7 +15,7 @@
     },
     "emptyEmail": {
       "email": "",
-      "password": "MeroJob@2025"
+      "password": "password"
     },
     "emptyPassword": {
       "email": "sichu1416@gmail.com",
